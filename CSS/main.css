@@ -1,0 +1,114 @@
+body, html{
+    background-color: grey;
+    height: 100%;
+    margin: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type:none;
+    width:100%;
+    padding:20px;
+}
+
+nav{
+    display: block;
+    color: white;
+
+}
+
+nav a{
+    color: darkslategray;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.hero-image{
+    background-image:url("../images/mountains.jpg");
+    background-position: center;
+    padding-right:20px;
+    height: 1000px;
+    overflow:scroll;
+}
+
+.hero-text{
+    color: black;
+    text-align: center
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:black;
+}
+
+#profile-image{
+    width:50%;
+    border:10px solid lightgray;
+}
+
+#profile{
+    text-align: center;
+    color:black
+}
+
+#side-articles ul{
+    list-style-type: none;
+    padding-left:0px;
+    color:black;
+}
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details{
+    margin-right:30px;
+    text-align:center;
+    color:black;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    color:black
+}
+
+form{
+    margin-top:20px;
+}
+
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 5px;
+    color:black;
+}
+
+footer{
+    border-radius: 50%;
+    
+}
+
+.side-articles{
+    border:lightgrey;
+    color:black;
+}
+
+
+
